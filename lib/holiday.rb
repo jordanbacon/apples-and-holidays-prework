@@ -83,8 +83,8 @@ holiday_hash.collect do |seaon, holiday|
     bbq_holidays << holiday
   end
 end
-  bbq_holidays
 end
+  bbq_holidays
 end
 
 
