@@ -83,6 +83,7 @@ holiday_hash.collect do |holiday, supplies|
   end
   bbq_holidays
 end
+end
 
 
 
