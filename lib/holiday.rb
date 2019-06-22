@@ -80,7 +80,8 @@ bbq_holidays = []
 holiday_hash.collect do |holiday, supplies|
   if supplies.include?("BBQ")
     bbq_holidays << holiday
-  
+  end
+  bbq_holidays
 end
 
 
