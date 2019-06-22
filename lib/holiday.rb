@@ -49,7 +49,8 @@ christmas_supplies = []
 new_years_supplies = []
 holiday_hash[:winter][:christmas] = christmas_supplies
 holiday_hash[:winter][:new_years] = new_years_supplies
-winter_supplies = 
+winter_supplies = christmas_supplies.concat(new_years_supplies)
+winter_supplies
 end
 
 def all_supplies_in_holidays(holiday_hash)
